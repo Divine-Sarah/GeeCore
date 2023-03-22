@@ -25,10 +25,10 @@ function Popup() {
 
   return (
     <>
-      <div id='modalBox' className={showModal ? "show" : null}>
-        <img src={Images} width='100% ' alt='' height={"80%"} />
+      <div id="modalBox" className={showModal ? "show" : null}>
+        <img src={Images} width="100% " alt="" height={"80%"} />
 
-        <div className='offer-text'>
+        <div className="offer-text">
           <h2>Get 15% OFF</h2>
           <small>on all our Templates</small>
           <p>
@@ -37,16 +37,16 @@ function Popup() {
             repellat mollitia, earum, quo incidunt corrupti quae odit magni
             fugiat, nisi illum.
           </p>
-          <form action=''>
-            <input type='email' placeholder='Email Address' />
-            <button type='submit'>Subscribe</button>
+          <form action="">
+            <input type="email" placeholder="Email Address" />
+            <button type="submit">Subscribe</button>
           </form>
         </div>
         <img
           src={Images1}
-          alt=''
-          className='close-icon'
-          id='close-icon'
+          alt=""
+          className="close-icon"
+          id="close-icon"
           onClick={hideModal}
         />
       </div>

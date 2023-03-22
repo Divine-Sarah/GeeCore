@@ -9,10 +9,8 @@ import "./Assets/css/style.css";
 const Layout3 = () => {
   return (
     <>
-      <img src="" alt="" />
       <div
-        
-        className='banner'
+        className="banner"
         style={{
           background:
             "linear-gradient(0deg, rgba(110, 120, 180, 0.200), rgb(185, 143, 195))",

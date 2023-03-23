@@ -17,7 +17,7 @@ import Copyblocks from '../Pages/Home/components/Copyblocks'
 import Darkblack from '../Pages/Home/components/Darkblack'
 import Popup from '../Pages/Home/components/Popup'
 
-
+  
 const Home = () => {
   return (
     <>

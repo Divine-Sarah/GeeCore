@@ -16,7 +16,7 @@ import Home4 from './Oto4/Pages/Home4/Home4';
 import Home5 from './Oto5/Pages/Home5/Home5';
 import Home6 from './Oto6/Pages/Home6/Home6';
 import Home7 from './Oto7/Pages/Home7/Home7';
-import Home8 from './Oto8/Pages/Home4/Home8';
+import Home8 from './Oto8/Pages/Home8/Home8';
 
 function App() {
   return (

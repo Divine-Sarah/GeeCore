@@ -11,14 +11,14 @@ const Layout3 = () => {
     <>
       <div
         className="banner"
-        style={{
-          background:
-            "linear-gradient(0deg, rgba(110, 120, 180, 0.200), rgb(185, 143, 195))",
-          backgroundSize: "cover",
-          padding: "2.5% 0 10% 0",
-          overflow: "hidden",
-          position: "relative",
-        }}
+        // style={{
+        //   background:
+        //     "linear-gradient(0deg, rgba(110, 120, 180, 0.200), rgb(185, 143, 195))",
+        //   backgroundSize: "cover",
+        //   padding: "2.5% 0 10% 0",
+        //   overflow: "hidden",
+        //   position: "relative",
+        // }}
       >
         <Banner />
       </div>

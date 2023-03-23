@@ -18,20 +18,17 @@ function Banner() {
               alt='logo'
             />
 
-            <p className='lg20 md18 sm16 xs14 w500 lh150 text-white mt3'>
-              <span className='banner-title'>
-                The Future of Marketing Is Here
-              </span>
+            <p className='lg20 md18 sm16 xs14 w500 lh150 text-white mt3 '>
+              <span className='banner-title'>IMAGE AI PROFIT</span>
             </p>
 
             <h1
               className='lg48 md40 sm30 xs25 w400 lh130 mt2'
               style={{ color: "#fafbfb" }}
             >
-              Introducing ‘Human-like’ All-In-One{" "}
-              <br className='d-none d-md-block' />{" "}
+              Introducing Image AI Profit <br className='d-none d-md-block' />{" "}
               <span className='w700' style={{ color: "#fff" }}>
-                AI Marketing Assistant
+                Automatically Generates NFT's
               </span>
             </h1>
           </div>
@@ -50,7 +47,7 @@ function Banner() {
                   className='img-fluid center-block uncheck'
                   alt='uncheck'
                 />{" "}
-                Watch AI Takes Over Your Marketing:
+                Watch AI Generate Your NFT's:
               </span>
             </p>
           </div>
@@ -75,10 +72,23 @@ function Banner() {
                       alt='videoBg'
                     />
 
-                    <div className='mainvideo-section'>
+                    <div
+                      className='mainvideo-section'
+                      style={{ marginBottom: "10%" }}
+                    >
                       <div className='autoplayer-area'>
                         <div className='autoplayer-subarea autoplayer-subarea-16-by-9'>
-                          <div id='autoplayer'></div>
+                          <div id='autoplayer'>
+                            <iframe
+                              width='560'
+                              height='315'
+                              src='https://www.youtube.com/embed/NNQLJcJEzv0'
+                              title='YouTube video player'
+                              frameborder='0'
+                              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                              allowfullscreen
+                            ></iframe>
+                          </div>
                         </div>
                         <div className='autoplayer-overlay'>
                           <div className='autoplayer-overlay-background'></div>
@@ -105,6 +115,10 @@ function Banner() {
         </div>
       </div>
 
+      <br />
+      <br />
+      <br />
+
       <div className='mycontainer2'>
         <div className='row justify-content-center'>
           <div className='col-12 text-center'>
@@ -112,11 +126,10 @@ function Banner() {
               className='lg26 md24 sm20 xs18 w400 lh160'
               style={{ color: "#fafbfb" }}
             >
-              AI Creates An Online ‘Ready-To-Profit’ Business Using Just A
-              Keyword. <br className='d-none d-md-block' /> Use In Your Business
-              or{" "}
+              Image AI Profit Convert ‘Text’ to NFT's{" "}
+              <br className='d-none d-md-block' />{" "}
               <span className='w700' style={{ color: "#ffcd32" }}>
-                Sell To Clients For Big Bucks!
+                and Sell On NFT Marketplace!
               </span>{" "}
             </h4>
           </div>

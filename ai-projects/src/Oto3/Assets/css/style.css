@@ -3738,7 +3738,7 @@ audio{width:86%;}
 /*section48*/
 .offer {
     position: absolute;
-    margin-top: -19px;
+    margin-top: -19px; 
     left: 14px;
 }
 
@@ -3956,10 +3956,10 @@ audio{width:86%;}
 	padding: 5% 0 5% 0;
 	text-align: center;
 }
-
-/* .banner{background: linear-gradient(0deg, rgba(110, 120, 180, 0.200), rgb(185, 143, 195)), url(../images/Ai-11.jpg)
+.banner{background: url(../images/Frame\ 49.png)
 	no-repeat center bottom;background-size: cover;padding: 2.5% 0 10% 0;
-	overflow:hidden;position: relative;} */
+	overflow:hidden;position: relative;}
+
 .section2{background: url(../images/section2.png) no-repeat center bottom;background-size: cover;padding: 4% 0 3% 0;position: relative;overflow:hidden;background-color: #ede4fe;}
 .section3{background:
 	no-repeat center top;background-size: cover;

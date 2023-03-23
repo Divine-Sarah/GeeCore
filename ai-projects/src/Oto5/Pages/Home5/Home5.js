@@ -1,45 +1,18 @@
 import React from 'react'
-import Intro from './components/intro-banner'
-import Primemail from './components/Primemail'
-import Edege from './components/Edege'
-import Whitesolid from './components/whitesolid'
-import Whitesolid2 from './components/whitesolid2'
-import Reason from './components/reason'
-import About from './components/About'
-import Product from './components/Product'
-import Watchaction from './components/watchaction'
-import White from './components/white'
-import Reciprocated from './components/Reciprocated'
-import Blue from './components/blue'
-import Affiliate from './components/Affiliate'
-import Whitesection from './components/Whitesection'
-import Copyblocks from './components/Copyblocks'
-import Darkblack from './components/Darkblack'
-import Popup from './components/Popup'
+import Section46 from "./Components/Section46"
+import Section48 from './Components/Section48'
+import Section50 from './Components/Section50'
+import Reason from "./Components/reason"
 
-
-const Home = () => {
+const Home3 = () => {
   return (
-    <>
-      <Intro />
-      <Primemail />
-      <Edege />
-      <Whitesolid />
-      <Whitesolid2 />
-      <Watchaction />
-      <Reason />
-      <About />
-      <Product />
-      <White />
-      <Reciprocated />
-      <Blue />
-      <Affiliate />
-      <Whitesection/>
-      <Copyblocks />
-      <Darkblack />
-      <Popup/>
+      <>
+      <Reason/>
+      <Section48 />
+        <Section46/>
+      <Section50 />
       </>
   )
 }
 
-export default Home
+export default Home3

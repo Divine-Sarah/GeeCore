@@ -3959,10 +3959,11 @@ audio{width:86%;}
     position: relative;
 }
 
-.whitesolid-banner,
-.whitesolid-banner2,
+/* .whitesolid-banner,
+.whitesolid-banner2, */
 .reason-section {
-	background:url(../images/MB-O1-57-Background-08.jpg);
+	
+	/* background:url(../images/MB-O1-57-Background-08.jpg); */
 	padding: 5% 0 5% 0;
 	text-align: center;
 }

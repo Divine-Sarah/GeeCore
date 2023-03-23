@@ -13,6 +13,60 @@ body{
   /*letter-spacing: -.02em;*/
 }
 
+
+.section41 {
+  background: url(../images/section41.png) no-repeat center top;
+  background-size: cover;
+  padding: 11% 0 4% 0;
+  position: relative;
+  margin-top: -6%;
+  z-index: 1;
+}
+
+.checklist1 li {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAYAAABVAo5cAAABrklEQVRIibXVS0hUURjA8d+MOWAPIXcto21tw0VFuKpNQQ8IpKAHxMDQCyIUCoQipI0gUVCbwFwIQoUUgQsrWobb2rRpIwZRbQpNx8WZyevtnjsz5nxwF+d7nD/3O9+jUP2snXIIZZzEAhTbCDuF5ziCJ+hoJ/AixlBKwEdhUxtgA7iDQkpfxreNBBYwjOs5PosbBezAQ1yI2Ku4jNE0sBPLWGoBVsJTnIjY/+Cs8KZriqYLk3js3/zHZAumcmC/cawOY7VotuEFDtbO33G1AWw7XqI3Yv+Jo5hJKovowXQCBldwKwe2A29yYF/Rl4bVgZPYmxE0hEsZ+p14hz0R2BccwIcsY1FI3Y9I8AjOJM678R67Iv6fsB8fI3aF2izdh9fYnOGzhOOYE96sJ3LXrDA752OwJBAO45nVcZSUhdq3NXLPW2FmxjL1V5Jt8QqnZfdgKQc2JfxZQ1gaCBPCzKs2E4xxoc9+NemfuS0e4UYTsfeFjCw2C4sB4R7u5sTdRkUYgy1J3j4cxIOUropruNkqqC6NtkUF3egXium8sL3XLY2AyzgnVOm40Db/JSvezFKHO87EogAAAABJRU5ErkJggg==) no-repeat 0 9px;
+  padding-left: 39px;
+  list-style: none;
+  margin-left: 0;
+  padding-top: 0;
+  padding-bottom: 15px;
+  margin-bottom: 18px;
+  color: blue;
+}
+
+.checklist1 li {
+  background: url(../images/checklist1.png) no-repeat left 6px;
+  padding-left: 44px;
+  list-style: none;
+  margin-left: 0px;
+  padding-top: 0;
+  padding-bottom: 2%;
+  margin-top: 2%;
+}
+
+.section41-box {
+  padding: 0 3.4%;
+  margin-top: -11%;
+}
+
+.section41-box-inn {
+  padding: 18% 10% 7% 10%;
+  border-width: 1px;
+  border-color: rgb(119, 96, 216);
+  border-style: dashed;
+  border-radius: 41px;
+  /* background-color: rgb(255, 255, 255); */
+  box-shadow: 0px 19px 76px 0px rgba(63, 34, 114, 0.24);
+}
+
+
+
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
 /*Letter Spacing*/
 .ls-5{letter-spacing:-0.25px;}
 .ls-1{letter-spacing:-0.5px;}  
@@ -1473,7 +1527,7 @@ nav li a {
     padding-top: 0;
     padding-bottom: 15px;
     margin-bottom: 18px;
-    color: white  ;
+    color: blue !important;  ;
 }
 .priceListing-box1{position:relative;}
 .priceListing-box1:before {
